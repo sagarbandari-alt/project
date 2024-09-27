@@ -1,0 +1,484 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+/* part 1 nav */
+nav{
+  background-image: url(banner_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.nav-content{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 1;
+}
+.logo{
+  color: white;
+  background-color: rgba(14, 8, 8, 0.232);
+  height: 10vh;
+  padding-top: 6%;
+  font-size: xx-large;
+}
+.logo::first-letter{
+  color: yellow;
+  font-size: 60px;
+
+}
+
+.nav-list{
+  width: 100vw;
+  background-color:rgba(40, 27, 27, 0.127);
+  display: flex;
+  list-style: none;
+  height: 10vh;
+  padding-left: 16%;
+  gap: 3%;
+  padding-top: 2%;
+}
+.nav-list a{
+  color: white;
+  font-size: larger;
+  text-decoration: none;
+}
+.nav-list a:hover{
+  color: yellow;
+}
+.nav-content2{
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 18%;
+}
+.t1{
+  color: yellow;
+}
+.t2{
+  color:  rgb(47, 204, 204);
+}
+.btn{
+     padding: 1%;
+     border-radius: 20%;
+     background-color: yellow;
+}
+.btn:hover{
+  background-color: rgb(123, 123, 227);
+  color: white;
+}
+/* end of part 1 */
+
+
+/* part2 */
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+      background: url("about-bg.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%;
+      height: 80vh;
+      padding-top: 10%;
+      padding-left: 4%;
+      line-height:4vh;
+      }
+      .card{
+         background-color: rgba(255, 255, 255, 0.093);
+         width:90%;
+         height: 50vh;
+        border-radius: 20px;
+        padding: 5%;
+      }
+    
+      .one{
+        border-radius: 50%;
+        background-color: yellow;
+        padding: 2%;
+        margin-left: 35%;
+      }
+      .b1{
+        background-color: rgb(47, 204, 204);
+         height: 40px; 
+         border-radius: 50px;
+         margin-left: 20%;
+         padding: 2%;
+        
+      }
+
+    .card h1 {
+     color: white;
+     text-align: center;
+    }
+    .card p{
+     color: white;
+    text-align: center;
+    }
+    .card:hover{
+      transition: background-color 3s;
+      background-color: lightblue;
+    }
+    
+    /*part3  */
+
+    .container3{
+      display: flex;
+  
+     }
+
+    .section3a{
+        width: 50%;
+        height: 110vh;
+        background-color: rgb(9, 181, 181);
+        text-align: center;
+        line-height: 5vh;
+        font-size: x-large;
+       }
+       .section3a:hover{
+        transition: background-color 2s;
+        background-color: rgb(202, 67, 96);
+       }
+       .p1{
+        
+        margin-left: 20%; 
+        margin-right: 20%;
+         text-align: justify; 
+         font-size: x-large;
+       }
+       .part3img{
+        width: 98%;
+        height:33vh;
+       }
+       .section3b{
+        display: grid;
+        grid-template-columns: auto auto;
+        width: 50%;
+        gap: 2%;
+        padding: 2%;
+        background-color: white;
+        
+           }   
+           .part3img:hover{
+            transform: scale(1.2);
+            background: green;
+            box-shadow: 3px 3px 3px aqua;
+            z-index: 2;
+            border: 2px solid;
+            border-radius: 15px;
+          }           
+           
+/* part4  */
+
+
+.container4{
+  background-color: rgb(242, 200, 122);
+  width: 100%;
+  height: 70vh;
+  
+ }
+ .yello{
+  align-items: center;
+  margin-left: 30%;
+ padding-top: 10%;
+ 
+}
+.yello1{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;  
+  width: 60%; 
+  height: 15vh;
+  border-radius: 10px; 
+  text-align: center;
+  padding: 2%;
+  line-height: 4vh;
+  font-size: larger;
+}
+.part4a{
+  padding-left: 20%;
+  font-size: xx-large;
+  color: white;
+}
+
+
+/* part5 */
+
+.container5{
+  display: flex;
+  background-image: url("blog-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+
+}
+
+.a{
+ 
+ flex-basis: 40%;
+  height: 60vh;
+  margin: 8%;
+  font-size: larger;
+ line-height: 4vh;
+ padding-top: 4%;
+  
+}
+.part5p{
+  background-color: white;
+   height: 5vh; 
+   border-radius: 20px;
+   text-align: center;
+   margin-left: 2%;
+   margin-right: 2%;
+
+}
+
+.c{
+  background-color: white;
+  flex-basis: 60%;
+  margin-right: 15%;
+  height: 50vh;
+  
+}
+.part5ca{
+  padding-left: 4%;
+  padding-top: 2%;
+  line-height: 4vh;
+}
+
+
+/* part6 */
+
+
+.container6{
+  background-color:rgba(0, 0, 0, 0.443);
+  width: 100%;
+  height: 50vh;
+  text-align: center;
+  color: white;
+  line-height: 3;
+  padding-top: 4%;
+  padding-left: 2%;
+ }
+ .b2{
+  background-color: aqua; 
+  border-radius: 30px; 
+  border-color: aqua;
+  padding: 1%;
+  width: max-content;
+ }
+ /* part7 */
+
+ .part7img{
+  width: 100%;
+  height: 60vh;
+
+}
+
+/* part8 */
+.footer{
+  background-color: rgba(0, 0, 0, 0.594);
+  width: 100%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 10%;
+  color: white;
+  padding-left: 5%;
+}
+.tnk{
+  text-align: center; 
+  padding-top: 40px;
+ 
+}
+
+
+/* Custom animation settings */
+.animate-custom {
+  animation-duration: 7s;
+  animation-fill-mode: both;
+}
+
+/* Add this class to all elements you want animated */
+.animate-custom-slow {
+  animation-duration: 7s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1; /* Keeps the animation running once */
+}
+
+/* Example animations: fadeInUp, bounce, etc. */
+.nav-content2 {
+  animation-name: fadeInUp;
+  animation-duration: 7s;
+}
+
+.container2 .card h1, .container2 .card p, .container2 .card button {
+  animation-name: fadeInUp;
+  animation-duration: 7s;
+}
+
+.p1 {
+  animation-name: fadeInUp;
+  animation-duration: 3s;
+}
+
+.part3img {
+  animation-name: bounce;
+  animation-duration: 7s;
+}
+
+.container5 .a, .container5 .c {
+  animation-name: fadeInUp;
+  animation-duration: 7s;
+}
+
+.container6 p, .container6 hr, .container6 button {
+  animation-name: fadeInUp;
+  animation-duration: 7s;
+}
+
+/* For buttons and special elements */
+.btn, .b1, .b2 {
+  animation-name: fadeIn;
+  animation-duration: 7s;
+}
+
+/* Hover effects */
+.part3img:hover {
+  animation-name: zoomIn;
+  animation-duration: 7s;
+  transform: scale(1.2);
+  background: green;
+  box-shadow: 3px 3px 3px aqua;
+  z-index: 2;
+  border: 2px solid;
+  border-radius: 15px;
+}
+
+/* Ensure transitions */
+.nav-list a:hover {
+  transition: color 7s;
+}
+
+.b1:hover {
+  transition: background-color 7s;
+  background-color: lightblue;
+}
+
+/* Same for footer */
+.footer p, .footer a {
+  animation-name: fadeInUp;
+  animation-duration: 7s;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .nav-content2 {
+      animation-name: fadeInUp;
+      animation-duration: 7s;
+  }
+  
+  .container2 .card h1, .container2 .card p {
+      animation-name: fadeInUp;
+      animation-duration: 7s;
+  }
+  
+  .container5 .a, .container5 .c {
+      animation-name: fadeInUp;
+      animation-duration: 7s;
+  }
+}
+
+
+
+
+
+/* mediaqueries */
+@media only screen and (width<576px){
+ html,body{
+  width: auto !important;
+  overflow-x: hidden !important;
+ }
+ /* part 1 */
+ .nav-list{
+  width: 100vw;
+  display: flex;
+  list-style: none;
+  height: 10vh;
+  padding-left:0%;
+  gap: 3%;
+  padding-top: 3%;
+  font-size: medium;
+}
+.logo{
+  font-size:small;
+
+}
+.nav-content2{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 48%;
+}
+/* part2 */
+.container2{
+  grid-template-columns: auto;
+  height: 300vh;
+  padding-left: 5%;
+}
+/* part3 */
+.container3{
+  flex-direction: column;
+}
+.section3a{
+  width: 100%;
+}
+.section3b{
+  width: 100%;
+  height: 110vh;
+}
+/* part4 */
+.container4{
+  height: 50vh;
+}
+.yello{
+  margin-left: 5%;
+}
+.yello1{
+  height: 20vh;
+  width: 90%;
+}
+.part4a{
+  padding-left: 20%;
+}
+/* part5 */
+.container5{
+  flex-direction: column;
+ height: 150vh;
+}
+.a{
+  flex-basis: 100%;
+}
+.c{
+  flex-basis: 100%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+/* part8 */
+.footer{
+  grid-template-columns: auto;
+  height: 120vh;
+  text-align: center;
+}
+
+
+}

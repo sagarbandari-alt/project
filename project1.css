@@ -1,0 +1,8 @@
+.container1{
+    background-image: url() ;
+    width: 100vw;
+    height:700px;       
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+}
